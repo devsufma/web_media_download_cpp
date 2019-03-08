@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall $(DEBUG)$/;"	m
+DEBUG	Makefile	/^DEBUG = -g$/;"	m
+DOWNLOADER_H	src/downloader.h	2;"	d
+EXE	Makefile	/^EXE = app$/;"	m
+HDRS	Makefile	/^HDRS = src\/lista.h src\/downloader.h $/;"	m
+LFLAGS	Makefile	/^LFLAGS = -Wall $(DEBUG)$/;"	m
+LIBS	Makefile	/^LIBS = -lncurses$/;"	m
+OBJS	Makefile	/^OBJS = src\/main.o src\/lista.o src\/downloader.o $/;"	m
+SITE_H	src/lista.h	2;"	d
+SRCS	Makefile	/^SRCS = src\/main.cpp src\/lista.cpp src\/downloader.cpp $/;"	m
+UrlToFile	src/downloader.cpp	/^string UrlToFile(string& input) {$/;"	f
+_lista	src/lista.h	/^typedef struct _lista {$/;"	s
+addNode	src/lista.cpp	/^void addNode(lista *head, string url) {$/;"	f
+clear	src/utils.cpp	/^void clear() {$/;"	f
+create_win	src/window.cpp	/^WINDOW *create_win(int alt, int larg, int y, int x) {$/;"	f
+downloadPage	src/downloader.cpp	/^bool downloadPage(string page, string original, lista *rootSites,lista  *rootMedia) {$/;"	f
+lista	src/lista.h	/^} lista;$/;"	t	typeref:struct:_lista
+main	src/main.cpp	/^int main() {$/;"	f
+makeMenu	src/window.cpp	/^void makeMenu(WINDOW *menuSites, WINDOW *menuMedias, WINDOW *header, string siteURL) {$/;"	f
+next	src/lista.h	/^    _lista *next;$/;"	m	struct:_lista
+novoNode	src/lista.cpp	/^lista* novoNode(string url) {$/;"	f
+ozIpStart	downloads/HTML/plus.google.com_+edXOnline.html	/^            function ozIpStart() {$/;"	f
+printNodes	src/lista.cpp	/^void printNodes(lista *head) {$/;"	f
+printSitesMenu	src/window.cpp	/^void printSitesMenu(WINDOW *menuSites, site *rootSite, int highlight) {$/;"	f
+refresh_wins	src/window.cpp	/^void refresh_wins(WINDOW *header, WINDOW *menuSites, WINDOW *menuMedias) {$/;"	f
+start	src/window.cpp	/^void start() {$/;"	f
+updateHeader	src/window.cpp	/^void updateHeader(WINDOW *header, string site) {$/;"	f
+url	src/lista.h	/^    std::string url;$/;"	m	struct:_lista
